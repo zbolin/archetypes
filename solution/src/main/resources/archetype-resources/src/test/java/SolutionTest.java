@@ -12,8 +12,8 @@ public class SolutionTest {
         solution = new Solution();
     }
 
-	@Test
-	public void test() {
+    @Test
+    public void test() {
         ${argumentType} ${argumentName} = ;
         ${returnType} expected = ;
         ${returnType} actual = solution.${methodName}(${argumentName});
