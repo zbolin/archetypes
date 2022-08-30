@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Solution {
 
-    public ${returnType} ${methodName}(${argumentType} ${argumentName}) {
+    public ${returnType} ${methodName}(${arguments}) {
         ${returnType} result = ;
 
         return result;

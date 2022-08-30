@@ -14,7 +14,7 @@ public class SolutionTest {
 
     @Test
     public void test() {
-        ${argumentType} ${argumentName} = ;
+        ${arguments} = ;
         ${returnType} expected = ;
         ${returnType} actual = solution.${methodName}(${argumentName});
         assertEquals(expected, actual);
