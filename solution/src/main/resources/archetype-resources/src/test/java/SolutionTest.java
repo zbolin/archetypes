@@ -16,7 +16,7 @@ public class SolutionTest {
     public void test() {
         ${arguments} = ;
         ${returnType} expected = ;
-        ${returnType} actual = solution.${methodName}(${argumentName});
+        ${returnType} actual = solution.${methodName}(${arguments});
         assertEquals(expected, actual);
 	}
 }
