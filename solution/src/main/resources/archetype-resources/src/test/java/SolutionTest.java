@@ -14,9 +14,9 @@ public class SolutionTest {
 
     @Test
     public void test() {
-        ${arguments} = ;
+        ${parameters} = ;
         ${returnType} expected = ;
-        ${returnType} actual = solution.${methodName}(${arguments});
+        ${returnType} actual = solution.${methodName}(${vars});
         assertEquals(expected, actual);
 	}
 }

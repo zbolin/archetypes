@@ -4,7 +4,8 @@
     <requiredProperties>
         <requiredProperty key="returnType"/>
         <requiredProperty key="methodName"/>
-        <requiredProperty key="arguments"/>
+        <requiredProperty key="parameters"/>
+        <requiredProperty key="vars"/>
     </requiredProperties>
 
     <fileSets>
