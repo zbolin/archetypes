@@ -2,22 +2,32 @@
 <archetype-descriptor name="basic">
 
     <requiredProperties>
-        <requiredProperty key="project">
-        </requiredProperty>
+        <requiredProperty key="controller"></requiredProperty>
+        <requiredProperty key="controllerLower"></requiredProperty>
+        <requiredProperty key="model"></requiredProperty>
+        <requiredProperty key="modelLower"></requiredProperty>
+        <requiredProperty key="attrib"></requiredProperty>
+        <requiredProperty key="attribLower"></requiredProperty>
         <requiredProperty key="spring-version">
-            <defaultValue>2.7.3</defaultValue>
+			<defaultValue>4.3.9.RELEASE</defaultValue>>
         </requiredProperty>
     </requiredProperties>
 
     <fileSets>
         <fileSet filtered="true">
             <directory>src/main/resources</directory>
+            <!--
             <includes>
                 <include>*.txt</include>
             </includes>
             <excludes>
                 <exclude>**/*.xml</exclude>
             </excludes>
+            -->
+        </fileSet>
+
+        <fileSet filtered="true">
+            <directory>WebContent</directory>
         </fileSet>
 
         <fileSet filtered="true" packaged="true">
